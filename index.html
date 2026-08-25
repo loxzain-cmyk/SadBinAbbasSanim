@@ -1,41 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <title>Sanim — Communication for Development | Sports Reporter</title>
 
   <meta
     name="description"
-    content="SANIM — Creative Portfolio. Visual Storytelling, Media, Journalism, Communication Research and Creative Production."
+    content="MD. Sad Bin Abbas Sanim — Communication for Development graduate, sports reporter and media enthusiast."
   >
 
-  <meta
-    name="keywords"
-    content="Sanim, Portfolio, Creative, Designer, Animator, Journalism, Media, Communication, Visual Storytelling"
-  >
-
-  <meta name="author" content="SANIM">
-
-  <meta name="theme-color" content="#08090c">
-
-  <title>SANIM — Creative Portfolio</title>
+  <meta name="author" content="MD. Sad Bin Abbas Sanim">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
-    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   >
 
   <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
@@ -44,59 +31,32 @@
   ====================================================== -->
 
   <div class="loader" id="loader">
-
     <div class="loader-noise"></div>
 
     <div class="loader-inner">
-
       <div class="loader-top">
-        <span>SANIM / PORTFOLIO</span>
-        <span>SYSTEM 01</span>
+        <span>SANIM</span>
+        <span>PORTFOLIO / 2026</span>
       </div>
 
-      <div class="loader-center">
-
-        <div class="loader-title">
-          <span>CREATIVE</span>
-          <span>VISUAL</span>
-          <span>STORYTELLER</span>
-        </div>
-
-        <div class="loader-counter">
-          <strong id="loaderPercent">00%</strong>
-        </div>
-
+      <div class="loader-title">
+        <span>COMMUNICATION</span>
+        <span>JOURNALISM</span>
+        <span>DEVELOPMENT</span>
       </div>
 
       <div class="loader-bottom">
-
         <div class="loader-line">
           <span></span>
         </div>
 
         <div class="loader-meta">
           <span>INITIALIZING EXPERIENCE</span>
-          <span>2026</span>
+          <strong id="loaderPercent">00%</strong>
         </div>
-
       </div>
-
     </div>
-
   </div>
-
-
-  <!-- =====================================================
-       GLOBAL ATMOSPHERE
-  ====================================================== -->
-
-  <div class="global-noise"></div>
-
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
-  <div class="ambient ambient-three"></div>
-
-  <div class="mouse-glow"></div>
 
 
   <!-- =====================================================
@@ -109,78 +69,67 @@
 
 
   <!-- =====================================================
+       BACKGROUND FX
+  ====================================================== -->
+
+  <div class="global-noise"></div>
+
+  <div class="color-orb orb-one"></div>
+  <div class="color-orb orb-two"></div>
+  <div class="color-orb orb-three"></div>
+
+  <div class="mouse-glow"></div>
+
+
+  <!-- =====================================================
        NAVBAR
   ====================================================== -->
 
   <header class="navbar" id="navbar">
 
-    <a
-      href="#home"
-      class="brand magnetic"
-      aria-label="SANIM Home"
-    >
-
+    <a href="#home" class="brand magnetic">
       <span class="brand-mark">S</span>
-
       <span class="brand-name">SANIM</span>
-
     </a>
 
+    <nav class="desktop-nav">
 
-    <nav class="desktop-nav" aria-label="Primary navigation">
-
-      <a href="#home" class="nav-link active magnetic">
+      <a href="#home" class="nav-link active">
         <span>01</span>
         HOME
       </a>
 
-      <a href="#about" class="nav-link magnetic">
+      <a href="academic.html" class="nav-link">
         <span>02</span>
-        ABOUT
+        ACADEMIC
       </a>
 
-      <a href="#work" class="nav-link magnetic">
+      <a href="internship.html" class="nav-link">
         <span>03</span>
-        WORK
+        INTERNSHIP
       </a>
 
-      <a href="#journey" class="nav-link magnetic">
+      <a href="extracurricular.html" class="nav-link">
         <span>04</span>
-        JOURNEY
+        EXTRACURRICULAR
       </a>
 
-      <a href="#contact" class="nav-link magnetic">
+      <a href="contact.html" class="nav-link">
         <span>05</span>
         CONTACT
       </a>
 
     </nav>
 
+    <button class="search-trigger magnetic" id="searchTrigger" aria-label="Search">
+      <span class="search-text">SEARCH</span>
+      <span class="search-icon"></span>
+    </button>
 
-    <div class="nav-actions">
-
-      <button
-        class="search-trigger magnetic"
-        id="searchTrigger"
-        type="button"
-        aria-label="Open search"
-      >
-        <span>SEARCH</span>
-        <i class="search-icon"></i>
-      </button>
-
-      <button
-        class="menu-toggle"
-        id="menuToggle"
-        type="button"
-        aria-label="Open menu"
-        aria-controls="mobileMenu"
-      >
-        <span></span>
-        <span></span>
-      </button>
-
-    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
 
   </header>
 
@@ -191,11 +140,13 @@
 
   <div class="mobile-menu" id="mobileMenu">
 
+    <div class="mobile-menu-bg"></div>
+
     <div class="mobile-menu-inner">
 
       <div class="mobile-menu-top">
-        <span>NAVIGATION</span>
-        <span>SANIM / 01</span>
+        <span>MENU</span>
+        <span>05 / 05</span>
       </div>
 
       <nav>
@@ -205,22 +156,22 @@
           <span>HOME</span>
         </a>
 
-        <a href="#about" class="mobile-link">
+        <a href="academic.html" class="mobile-link">
           <small>02</small>
-          <span>ABOUT</span>
+          <span>ACADEMIC</span>
         </a>
 
-        <a href="#work" class="mobile-link">
+        <a href="internship.html" class="mobile-link">
           <small>03</small>
-          <span>WORK</span>
+          <span>INTERNSHIP</span>
         </a>
 
-        <a href="#journey" class="mobile-link">
+        <a href="extracurricular.html" class="mobile-link">
           <small>04</small>
-          <span>JOURNEY</span>
+          <span>EXTRACURRICULAR</span>
         </a>
 
-        <a href="#contact" class="mobile-link">
+        <a href="contact.html" class="mobile-link">
           <small>05</small>
           <span>CONTACT</span>
         </a>
@@ -228,63 +179,39 @@
       </nav>
 
       <div class="mobile-menu-bottom">
-        CREATIVE PORTFOLIO / 2026
+        COMMUNICATION / JOURNALISM / DEVELOPMENT
       </div>
 
     </div>
-
   </div>
 
 
   <!-- =====================================================
-       SEARCH
+       SEARCH OVERLAY
   ====================================================== -->
 
   <div class="search-overlay" id="searchOverlay">
 
     <div class="search-overlay-inner">
 
-      <button
-        class="search-close"
-        id="searchClose"
-        type="button"
-      >
-        CLOSE
-        <span>×</span>
+      <button class="search-close" id="searchClose">
+        CLOSE <span>×</span>
       </button>
 
-      <div class="search-kicker">
-        SEARCH THE PORTFOLIO
-      </div>
-
-      <div class="search-heading">
-        FIND
-        <span>THE WORK.</span>
-      </div>
+      <div class="search-kicker">SEARCH PORTFOLIO</div>
 
       <div class="search-input-wrap">
-
         <input
-          id="searchInput"
           type="text"
+          id="searchInput"
+          placeholder="Search projects, work, journalism..."
           autocomplete="off"
-          placeholder="What are you looking for?"
-          aria-label="Search portfolio"
         >
 
-        <span>↗</span>
-
+        <span class="search-input-icon">⌕</span>
       </div>
 
-      <div
-        class="search-results"
-        id="searchResults"
-      ></div>
-
-      <div class="search-hint">
-        PRESS <strong>/</strong> TO SEARCH
-        <span>ESC TO CLOSE</span>
-      </div>
+      <div class="search-results" id="searchResults"></div>
 
     </div>
 
@@ -295,47 +222,40 @@
        MAIN
   ====================================================== -->
 
-  <main>
+  <main id="home">
 
 
     <!-- ===================================================
          HERO
     ==================================================== -->
 
-    <section class="hero" id="home">
+    <section class="hero section-dark">
 
       <div class="hero-image">
-
         <img
-          src="images/hero.jpg"
-          alt="SANIM creative portfolio"
-          loading="eager"
+          src="assets/images/bg01.jpg"
+          alt="Sanim portfolio background"
         >
-
       </div>
 
       <div class="hero-overlay"></div>
-      <div class="hero-color-wash"></div>
-      <div class="hero-grid"></div>
 
+      <div class="hero-color-wash"></div>
+
+      <div class="hero-grid"></div>
 
       <div class="hero-content">
 
         <div class="hero-top">
 
           <div class="eyebrow reveal-up">
-
             <span class="eyebrow-dot"></span>
-
-            AVAILABLE FOR CREATIVE WORK
-
+            COMMUNICATION FOR DEVELOPMENT
           </div>
 
-          <div class="hero-index reveal-up delay-one">
-
+          <div class="hero-index reveal-up">
             <span>PORTFOLIO</span>
-            <strong>2026</strong>
-
+            <strong>01 — 05</strong>
           </div>
 
         </div>
@@ -344,15 +264,15 @@
         <div class="hero-title">
 
           <div class="hero-line reveal-title">
-            <span>CREATIVE</span>
+            <span>COMMUNICATION</span>
           </div>
 
-          <div class="hero-line reveal-title delay-one">
-            <span class="hero-outline">VISUAL</span>
+          <div class="hero-line hero-outline reveal-title delay-one">
+            <span>JOURNALISM</span>
           </div>
 
-          <div class="hero-line reveal-title delay-two">
-            <span class="hero-accent">STORYTELLER</span>
+          <div class="hero-line hero-accent reveal-title delay-two">
+            <span>DEVELOPMENT</span>
           </div>
 
         </div>
@@ -360,46 +280,27 @@
 
         <div class="hero-bottom">
 
-          <div class="hero-person reveal-up delay-one">
-
-            <div class="hero-avatar">
-
-              <img
-                src="images/profile.jpg"
-                alt="SANIM"
-                loading="lazy"
-              >
-
-            </div>
+          <div class="hero-person">
 
             <div>
-
-              <span>SANIM</span>
-
-              <small>
-                CREATIVE / MEDIA / VISUAL COMMUNICATION
-              </small>
-
+              <span>MD. SAD BIN ABBAS SANIM</span>
+              <small>SPORTS REPORTER · MEDIA PRACTITIONER</small>
             </div>
 
           </div>
 
 
-          <div class="hero-description reveal-up delay-two">
+          <div class="hero-description">
 
             <p>
-              I create visual experiences that connect
-              ideas, people and stories through design,
-              media, communication and creative
-              storytelling.
+              A Communication for Development graduate passionate about
+              creative communication, newsroom editing, news production,
+              storytelling and sports journalism.
             </p>
 
-            <a
-              href="#academic"
-              class="hero-cta magnetic"
-            >
-              <span>EXPLORE THE WORK</span>
-              <i>↗</i>
+            <a href="#about" class="hero-cta magnetic">
+              <span>EXPLORE PROFILE</span>
+              <i>↘</i>
             </a>
 
           </div>
@@ -410,16 +311,11 @@
 
 
       <div class="hero-scroll">
-        <span class="scroll-line"></span>
-        SCROLL TO EXPLORE
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"></div>
       </div>
 
-      <div class="hero-number">
-        01 — 09
-      </div>
-
-      <div class="hero-corner hero-corner-tl"></div>
-      <div class="hero-corner hero-corner-br"></div>
+      <div class="hero-number">01</div>
 
     </section>
 
@@ -432,29 +328,26 @@
 
       <div class="marquee-track">
 
-        <span>VISUAL STORYTELLING</span>
-        <i>✦</i>
-
-        <span>MEDIA</span>
-        <i>✦</i>
-
         <span>COMMUNICATION</span>
         <i>✦</i>
-
-        <span>CREATIVE PRODUCTION</span>
-        <i>✦</i>
-
         <span>JOURNALISM</span>
         <i>✦</i>
-
-        <span>VISUAL STORYTELLING</span>
+        <span>SPORTS</span>
         <i>✦</i>
-
         <span>MEDIA</span>
+        <i>✦</i>
+        <span>DEVELOPMENT</span>
         <i>✦</i>
 
         <span>COMMUNICATION</span>
         <i>✦</i>
+        <span>JOURNALISM</span>
+        <i>✦</i>
+        <span>SPORTS</span>
+        <i>✦</i>
+        <span>MEDIA</span>
+        <i>✦</i>
+        <span>DEVELOPMENT</span>
 
       </div>
 
@@ -465,34 +358,19 @@
          ABOUT
     ==================================================== -->
 
-    <section
-      class="about section-light"
-      id="about"
-    >
+    <section class="about section-light" id="about">
 
       <div class="section-container">
 
-        <div class="section-topline dark">
-
-          <span>02 / ABOUT</span>
-
-          <a href="#contact">
-            LET'S CONNECT ↗
-          </a>
-
-        </div>
-
-
-        <div class="section-heading">
+        <div class="section-heading reveal-section">
 
           <div class="section-number">
-            WHO I AM
+            02 / PROFILE
           </div>
 
-          <h2 class="reveal-text">
-            IDEAS
-            <em>INTO</em>
-            IMPACT.
+          <h2>
+            COMMUNICATION
+            <em>WITH PURPOSE.</em>
           </h2>
 
         </div>
@@ -500,60 +378,32 @@
 
         <div class="about-layout">
 
-          <div class="about-image">
-
-            <div class="image-frame reveal-image">
-
-              <img
-                src="images/about.jpg"
-                alt="SANIM portrait"
-                loading="lazy"
-              >
-
-              <div class="image-gradient"></div>
-
-              <div class="image-label">
-                SANIM / CREATIVE PRACTITIONER
-              </div>
-
-              <div class="image-corner"></div>
-
-            </div>
-
-          </div>
-
-
           <div class="about-copy">
 
             <div class="large-copy reveal-text">
 
               <p>
-                I work at the intersection of
-                <strong>media, design, communication
-                and storytelling</strong> — turning
-                complex ideas into visual experiences
-                people can understand and remember.
+                I am a Communication for Development graduate passionate
+                about creative communication, newsroom editing, news
+                production, storytelling and effective media practice.
               </p>
 
             </div>
 
-
             <div class="about-columns reveal-text">
 
               <p>
-                My approach combines strategic thinking
-                with visual experimentation. From media
-                production and journalism to research,
-                design and digital storytelling, every
-                project begins with one question:
-                <strong>how can the story become stronger?</strong>
+                My academic journey has allowed me to work across research,
+                digital communication, visual storytelling, development
+                communication, environmental issues, public communication
+                and media production.
               </p>
 
               <p>
-                I believe good creative work should not
-                only look impressive. It should communicate
-                clearly, create emotion and leave a lasting
-                impression.
+                Alongside academic work, sports journalism has become an
+                important part of my professional direction. I am interested
+                in transforming information into stories that are accurate,
+                engaging and meaningful for audiences.
               </p>
 
             </div>
@@ -563,22 +413,17 @@
 
               <div class="fact">
                 <strong>01</strong>
-                <span>STORY</span>
+                <span>COMMUNICATION</span>
               </div>
 
               <div class="fact">
                 <strong>02</strong>
-                <span>DESIGN</span>
-              </div>
-
-              <div class="fact">
-                <strong>03</strong>
                 <span>MEDIA</span>
               </div>
 
               <div class="fact">
-                <strong>04</strong>
-                <span>IMPACT</span>
+                <strong>03</strong>
+                <span>SPORTS</span>
               </div>
 
             </div>
@@ -596,62 +441,49 @@
          CURRENT WORK
     ==================================================== -->
 
-    <section
-      class="current-work section-dark"
-      id="work"
-    >
+    <section class="current-work section-dark">
 
       <div class="current-bg"></div>
 
       <div class="section-container">
 
-        <div class="section-topline">
-
+        <div class="section-topline reveal-section">
           <span>03 / CURRENT WORK</span>
-
-          <span class="live-status">
-            <i></i>
-            LIVE / ACTIVE
-          </span>
-
+          <span>SPORTS MEDIA</span>
         </div>
 
 
         <div class="work-layout">
 
-          <div class="work-title reveal-text">
+          <div class="work-title">
 
-            <span class="work-kicker">
-              CURRENT ROLE
-            </span>
+            <span class="work-kicker">CURRENTLY WORKING AS</span>
 
             <h2>
-              MEDIA
-              <span>IN MOTION.</span>
+              SPORTS
+              <span>REPORTER</span>
             </h2>
 
           </div>
 
 
-          <div class="work-info reveal-text">
+          <div class="work-info">
 
             <div class="work-brand">
-              SANIM<span>.</span>
+              CRICFRENZY<span>.COM</span>
             </div>
 
             <p>
-              Working across media production,
-              reporting, editing, visual communication
-              and creative storytelling — developing
-              content that connects audiences with
-              meaningful stories.
+              Working in digital sports media with a strong interest in
+              football, cricket, sports storytelling, newsroom practices
+              and audience-focused digital journalism.
             </p>
 
             <a
-              href="#contact"
+              href="#academic"
               class="line-button magnetic"
             >
-              DISCUSS A PROJECT
+              VIEW MY WORK
               <span>↗</span>
             </a>
 
@@ -663,27 +495,18 @@
         <div class="work-stat-row">
 
           <div class="work-stat">
+            <small>FIELD</small>
+            <strong>SPORTS<br>JOURNALISM</strong>
+          </div>
+
+          <div class="work-stat">
             <small>FOCUS</small>
-            <strong>
-              VISUAL<br>
-              STORYTELLING
-            </strong>
+            <strong>FOOTBALL<br>CRICKET</strong>
           </div>
 
           <div class="work-stat">
-            <small>DISCIPLINE</small>
-            <strong>
-              MEDIA &<br>
-              COMMUNICATION
-            </strong>
-          </div>
-
-          <div class="work-stat">
-            <small>APPROACH</small>
-            <strong>
-              STRATEGY<br>
-              × CREATIVITY
-            </strong>
+            <small>MEDIUM</small>
+            <strong>DIGITAL<br>MEDIA</strong>
           </div>
 
         </div>
@@ -694,79 +517,71 @@
 
 
     <!-- ===================================================
-         JOURNALISM
+         SPORTS / JOURNALISM VISUAL
     ==================================================== -->
 
     <section class="journalism-visual">
 
       <div class="journalism-image">
-
         <img
-          src="images/journalism.jpg"
-          alt="Journalism and reporting"
-          loading="lazy"
+          src="assets/images/bg02.jpg"
+          alt="Journalism visual"
         >
-
       </div>
 
       <div class="journalism-overlay"></div>
 
       <div class="journalism-content">
 
-        <div class="journalism-kicker">
-          STORY / REPORT / CONTEXT
-        </div>
+        <span class="journalism-kicker">
+          INFORMATION → STORY → AUDIENCE
+        </span>
 
         <h2>
-          STORIES
-          <span>THAT MATTER.</span>
+          EVERY
+          <span>STORY</span>
+          MATTERS.
         </h2>
 
         <p>
-          Journalism is more than reporting what
-          happened. It is about understanding context,
-          finding the human story and presenting it
-          with clarity, responsibility and purpose.
+          From the newsroom to the field, my goal is to communicate
+          information with clarity, context and responsibility.
         </p>
 
       </div>
 
       <div class="journalism-side">
-        JOURNALISM / VISUAL REPORTING / STORYTELLING
+        JOURNALISM / 2026
       </div>
 
     </section>
 
 
     <!-- ===================================================
-         PRINCIPLES
+         CORE PRINCIPLES
     ==================================================== -->
 
     <section class="principles section-light">
 
       <div class="section-container">
 
-        <div class="section-topline dark">
-
-          <span>04 / PRINCIPLES</span>
-          <span>HOW I WORK</span>
-
+        <div class="section-topline dark reveal-section">
+          <span>04 / CORE PRINCIPLES</span>
+          <span>PERSONAL DIRECTION</span>
         </div>
 
 
-        <div class="principles-intro">
+        <div class="principles-intro reveal-section">
 
-          <h2 class="reveal-text">
-            THINK.
-            <span>CREATE.</span>
-            <br>
-            IMPACT.
+          <h2>
+            WHAT
+            <span>DRIVES</span>
+            ME.
           </h2>
 
-          <p class="reveal-text">
-            Every project is approached as a balance
-            between strategy, creativity and meaningful
-            communication.
+          <p>
+            Three ideas shape the way I approach communication,
+            journalism, learning and professional growth.
           </p>
 
         </div>
@@ -779,15 +594,15 @@
             <div class="principle-number">01</div>
 
             <div class="principle-main">
-              <span>PRINCIPLE</span>
-              <h3>CLARITY</h3>
+              <span>CORE VALUE</span>
+              <h3>PASSION</h3>
             </div>
 
             <div class="principle-copy">
               <p>
-                Strong creative work starts with a clear
-                idea. I simplify complexity without
-                sacrificing depth or meaning.
+                Sports have always been more than just an interest for me.
+                They have shaped my curiosity, energy and desire to tell
+                stories that connect with people.
               </p>
             </div>
 
@@ -805,15 +620,15 @@
             <div class="principle-number">02</div>
 
             <div class="principle-main">
-              <span>PRINCIPLE</span>
-              <h3>CURIOSITY</h3>
+              <span>CORE VALUE</span>
+              <h3>STRENGTH</h3>
             </div>
 
             <div class="principle-copy">
               <p>
-                I explore new perspectives, formats and
-                visual languages to keep ideas fresh,
-                relevant and unexpected.
+                My strength comes from combining communication knowledge,
+                media practice, research, storytelling and the ability
+                to keep learning through real-world experience.
               </p>
             </div>
 
@@ -831,20 +646,19 @@
             <div class="principle-number">03</div>
 
             <div class="principle-main">
-              <span>PRINCIPLE</span>
-              <h3>IMPACT</h3>
+              <span>CAREER GOAL</span>
+              <h3>GOAL</h3>
             </div>
 
             <div class="principle-copy">
               <p>
-                A beautiful piece means little if it
-                does not communicate. Every decision
-                should move the story forward.
+                My goal is to become a renowned sports journalist in
+                Bangladesh and build a career where journalism, media
+                communication and meaningful storytelling meet.
               </p>
             </div>
 
             <div class="principle-shape goal-shape">
-              <span></span>
               <span></span>
               <span></span>
             </div>
@@ -867,9 +681,8 @@
       <div class="ulab-image">
 
         <img
-          src="images/ulab.jpg"
-          alt="ULAB media experience"
-          loading="lazy"
+          src="assets/images/ulab01.jpg"
+          alt="ULAB academic journey"
         >
 
       </div>
@@ -879,31 +692,27 @@
       <div class="ulab-content">
 
         <div class="section-number light">
-          EXPERIENCE / MEDIA
+          05 / ACADEMIC JOURNEY
         </div>
 
         <h2>
-          FROM
-          <span>CLASSROOM</span>
-          <br>
-          TO
-          <span>REAL WORLD.</span>
+          UNIVERSITY OF
+          <span>LIBERAL ARTS</span>
+          BANGLADESH
         </h2>
 
         <p>
-          Academic learning becomes meaningful when
-          it meets real-world practice. My experience
-          in media and production has allowed me to
-          transform communication theory into practical
-          storytelling.
+          My academic journey at ULAB has allowed me to explore
+          communication through research, media production, development
+          practice, visual storytelling and real-world social issues.
         </p>
 
         <a
-          href="experience.html"
-          class="line-button magnetic"
+          href="academic.html"
+          class="hero-cta magnetic"
         >
-          VIEW EXPERIENCE
-          <span>↗</span>
+          <span>EXPLORE ACADEMIC WORK</span>
+          <i>↘</i>
         </a>
 
       </div>
@@ -912,43 +721,41 @@
 
 
     <!-- ===================================================
-         SELECTED PROJECTS
+         SELECTED ACADEMIC WORK
     ==================================================== -->
 
-    <section
-      class="academic-preview section-light"
-      id="academic"
-    >
+    <section class="academic-preview section-light" id="academic">
 
       <div class="section-container">
 
-        <div class="section-topline dark">
+        <div class="section-topline dark reveal-section">
 
-          <span>05 / SELECTED WORK</span>
-          <span>PROJECT INDEX</span>
+          <span>06 / SELECTED ACADEMIC WORK</span>
+
+          <a href="academic.html">
+            VIEW ALL 14 →
+          </a>
 
         </div>
 
 
-        <div class="academic-heading">
+        <div class="academic-heading reveal-section">
 
-          <h2 class="reveal-text">
-            SELECTED
-            <span>PROJECTS.</span>
+          <h2>
+            IDEAS
+            <span>IN ACTION.</span>
           </h2>
 
-          <p class="reveal-text">
-            A curated selection of academic,
-            communication, research and creative
-            projects developed through experimentation,
-            analysis and visual storytelling.
+          <p>
+            A selection of research, communication campaigns, visual
+            storytelling, development projects and media work developed
+            throughout my academic journey.
           </p>
 
         </div>
 
 
-        <div class="project-grid">
-
+        <div class="project-grid" id="projectGrid">
 
           <a
             href="academic.html"
@@ -957,20 +764,22 @@
 
             <div class="project-meta">
               <span>01</span>
-              <span>RESEARCH</span>
+              <span>MSJ1201 · FALL 2022</span>
             </div>
 
             <div class="project-shape project-data">
-              <i></i>
-              <i></i>
-              <i></i>
-              <i></i>
-              <i></i>
+              <i></i><i></i><i></i><i></i><i></i>
             </div>
 
             <div class="project-content">
-              <span>COMMUNICATION</span>
-              <h3>Communication Research</h3>
+
+              <span>COMMUNICATION RESEARCH</span>
+
+              <h3>
+                Trustworthiness of Bangladeshi mainstream media among
+                ULAB students.
+              </h3>
+
             </div>
 
             <div class="project-arrow">↗</div>
@@ -985,19 +794,21 @@
 
             <div class="project-meta">
               <span>02</span>
-              <span>MEDIA</span>
+              <span>MJS2101 · SPRING 2023</span>
             </div>
 
             <div class="project-shape project-network">
-              <i></i>
-              <i></i>
-              <i></i>
-              <i></i>
+              <i></i><i></i><i></i><i></i>
             </div>
 
             <div class="project-content">
-              <span>SPORTS MEDIA</span>
-              <h3>Sports Talk</h3>
+
+              <span>COMMUNICATION TECHNOLOGY</span>
+
+              <h3>
+                Living in the modern era, we are victims of discrimination today.
+              </h3>
+
             </div>
 
             <div class="project-arrow">↗</div>
@@ -1012,14 +823,20 @@
 
             <div class="project-meta">
               <span>03</span>
-              <span>SOCIAL</span>
+              <span>SUMMER 2023</span>
             </div>
 
             <div class="project-shape project-wave"></div>
 
             <div class="project-content">
-              <span>CIVIC ENGAGEMENT</span>
-              <h3>Civic Awareness</h3>
+
+              <span>SPORTS TALK</span>
+
+              <h3>
+                The impact of the Saudi Pro League on the 2023 football
+                transfer market.
+              </h3>
+
             </div>
 
             <div class="project-arrow">↗</div>
@@ -1034,16 +851,21 @@
 
             <div class="project-meta">
               <span>04</span>
-              <span>FIELD STUDY</span>
+              <span>MSJ1203 · SPRING 2023</span>
             </div>
 
             <div class="project-shape project-type">
-              ORGANIC
+              নাগরিক
             </div>
 
             <div class="project-content">
-              <span>AGRICULTURE</span>
-              <h3>Organic Farming Practice</h3>
+
+              <span>CIVIC AWARENESS</span>
+
+              <h3>
+                নাগরিক সচেতনতা
+              </h3>
+
             </div>
 
             <div class="project-arrow">↗</div>
@@ -1058,7 +880,7 @@
 
             <div class="project-meta">
               <span>05</span>
-              <span>BEHAVIOR</span>
+              <span>MSJ2201 · FALL 2023</span>
             </div>
 
             <div class="project-shape project-plastic">
@@ -1068,8 +890,13 @@
             </div>
 
             <div class="project-content">
-              <span>LIFESTYLE STUDY</span>
-              <h3>Early Sleeping Habits</h3>
+
+              <span>ENVIRONMENTAL COMMUNICATION</span>
+
+              <h3>
+                Stop throwing plastic in our tourist spots.
+              </h3>
+
             </div>
 
             <div class="project-arrow">↗</div>
@@ -1084,17 +911,22 @@
 
             <div class="project-meta">
               <span>06</span>
-              <span>CREATIVE</span>
+              <span>MSJ2102 · SUMMER 2023</span>
             </div>
 
             <div class="project-shape project-fashion">
-              <span>RENEW</span>
-              <span>CREATE</span>
+              <span>TRASH</span>
+              <span>ION</span>
             </div>
 
             <div class="project-content">
-              <span>VISUAL PROJECT</span>
-              <h3>From Decay to Renewal</h3>
+
+              <span>SUSTAINABILITY</span>
+
+              <h3>
+                Trashionshow
+              </h3>
+
             </div>
 
             <div class="project-arrow">↗</div>
@@ -1104,13 +936,10 @@
         </div>
 
 
-        <div class="academic-cta">
+        <div class="academic-cta reveal-section">
 
-          <a
-            href="academic.html"
-            class="big-link magnetic"
-          >
-            <span>VIEW COMPLETE PROJECT ARCHIVE</span>
+          <a href="academic.html" class="big-link magnetic">
+            <span>EXPLORE ALL 14 PROJECTS</span>
             <i>↗</i>
           </a>
 
@@ -1125,58 +954,55 @@
          JOURNEY
     ==================================================== -->
 
-    <section
-      class="journey section-dark"
-      id="journey"
-    >
+    <section class="journey section-dark">
 
       <div class="journey-grid"></div>
 
       <div class="section-container">
 
-        <div class="section-topline">
-
-          <span>06 / THE JOURNEY</span>
-          <span>CONTINUOUS EVOLUTION</span>
-
+        <div class="section-topline reveal-section">
+          <span>07 / THE JOURNEY</span>
+          <span>LEARN · CREATE · COMMUNICATE</span>
         </div>
 
 
         <div class="journey-layout">
 
-          <div class="journey-number reveal-text">
-            01
+          <div class="journey-number">
+            2022
             <span>→</span>
+            2026
           </div>
-
 
           <div class="journey-copy">
 
-            <h2 class="reveal-text">
-              LEARNING
-              <span>IN MOTION.</span>
+            <h2>
+              FROM
+              <span>CLASSROOM</span>
+              TO
+              <span>NEWSROOM.</span>
             </h2>
 
-            <p class="reveal-text">
-              Every project adds another layer to the
-              journey. From academic research and media
-              production to creative experimentation,
-              the goal remains the same — keep learning,
-              keep creating and keep improving.
+            <p>
+              Every project, assignment and professional experience has
+              contributed to a broader understanding of communication.
+              From academic research and development communication to
+              journalism and sports reporting, the journey continues.
             </p>
 
-            <div class="journey-tags reveal-text">
-
-              <span>MEDIA</span>
-              <span>JOURNALISM</span>
-              <span>DESIGN</span>
-              <span>PRODUCTION</span>
-              <span>RESEARCH</span>
-              <span>STORYTELLING</span>
-
-            </div>
-
           </div>
+
+        </div>
+
+
+        <div class="journey-tags">
+
+          <span>RESEARCH</span>
+          <span>MEDIA</span>
+          <span>STORYTELLING</span>
+          <span>SPORTS</span>
+          <span>COMMUNICATION</span>
+          <span>DEVELOPMENT</span>
 
         </div>
 
@@ -1186,44 +1012,40 @@
 
 
     <!-- ===================================================
-         FINAL CTA
+         CTA
     ==================================================== -->
 
-    <section
-      class="final-cta"
-      id="contact"
-    >
+    <section class="final-cta">
 
-      <div class="cta-grid"></div>
       <div class="cta-glow"></div>
 
       <div class="cta-inner">
 
-        <div class="cta-kicker">
-          HAVE A PROJECT IN MIND?
-        </div>
+        <span class="cta-kicker">
+          LET'S CONNECT
+        </span>
 
         <h2>
-          LET'S
-          <span>CREATE.</span>
+          HAVE A STORY
+          <span>TO TELL?</span>
         </h2>
 
         <p>
-          Let's turn an idea into something people
-          remember.
+          Communication begins with a conversation.
         </p>
 
         <a
           href="contact.html"
           class="cta-button magnetic"
         >
-          <span>START A CONVERSATION</span>
+          <span>GET IN TOUCH</span>
           <i>↗</i>
         </a>
 
       </div>
 
     </section>
+
 
   </main>
 
@@ -1237,23 +1059,17 @@
     <div class="footer-top">
 
       <div class="footer-brand">
-
-        <span>SANIM.</span>
-
+        <span>SANIM</span>
         <small>
-          CREATIVE PORTFOLIO / 2026
+          COMMUNICATION · JOURNALISM · DEVELOPMENT
         </small>
-
       </div>
-
 
       <div class="footer-links">
 
         <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#academic">PROJECTS</a>
-        <a href="experience.html">EXPERIENCE</a>
         <a href="academic.html">ACADEMIC</a>
+        <a href="internship.html">INTERNSHIP</a>
         <a href="extracurricular.html">EXTRACURRICULAR</a>
         <a href="contact.html">CONTACT</a>
 
@@ -1261,16 +1077,11 @@
 
     </div>
 
-
     <div class="footer-bottom">
 
-      <span>
-        © 2026 SANIM. ALL RIGHTS RESERVED.
-      </span>
+      <span>© 2026 MD. SAD BIN ABBAS SANIM</span>
 
-      <span>
-        DESIGNED / BUILT WITH INTENT.
-      </span>
+      <span>BUILT WITH PURPOSE.</span>
 
     </div>
 
@@ -1280,5 +1091,4 @@
   <script src="script.js"></script>
 
 </body>
-
 </html>
