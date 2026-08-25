@@ -17,7 +17,10 @@
         content="Academic portfolio of Sanim — research, communication, journalism and creative academic projects."
     >
 
-    <meta name="author" content="Sanim">
+    <meta
+        name="author"
+        content="Sanim"
+    >
 
     <!-- =====================================================
          GOOGLE FONTS
@@ -25,7 +28,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
@@ -36,7 +43,10 @@
          GLOBAL CSS
     ====================================================== -->
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 
 </head>
 
@@ -74,7 +84,10 @@
      LOADER
 ========================================================= -->
 
-<div class="loader" id="loader">
+<div
+    class="loader"
+    id="loader"
+>
 
     <div class="loader-inner">
 
@@ -115,8 +128,11 @@
         <div>
 
             <div class="loader-line">
+
                 <span></span>
+
             </div>
+
 
             <div class="loader-meta">
 
@@ -139,12 +155,16 @@
 
 <!-- =========================================================
      NAVBAR
+     EXACTLY 5 ITEMS
 ========================================================= -->
 
-<header class="navbar" id="navbar">
+<header
+    class="navbar"
+    id="navbar"
+>
 
     <a
-        href="index.html"
+        href="index.html#home"
         class="brand magnetic"
     >
 
@@ -161,56 +181,89 @@
 
     <nav class="desktop-nav">
 
-        <a
-            href="index.html"
-            class="nav-link magnetic"
-        >
-            <span>01</span>
-            HOME
-        </a>
+        <!-- 01 HOME -->
 
         <a
-            href="index.html#about"
+            href="index.html#home"
             class="nav-link magnetic"
         >
-            <span>02</span>
-            ABOUT
+
+            <span>
+                01
+            </span>
+
+            HOME
+
         </a>
+
+
+        <!-- 02 ACADEMIC -->
 
         <a
             href="academic.html"
             class="nav-link active magnetic"
         >
-            <span>03</span>
+
+            <span>
+                02
+            </span>
+
             ACADEMIC
+
         </a>
+
+
+        <!-- 03 INTERNSHIP -->
 
         <a
             href="internship.html"
             class="nav-link magnetic"
         >
-            <span>04</span>
-            EXPERIENCE
+
+            <span>
+                03
+            </span>
+
+            INTERNSHIP
+
         </a>
+
+
+        <!-- 04 EXTRACURRICULAR -->
 
         <a
             href="extracurricular.html"
             class="nav-link magnetic"
         >
-            <span>05</span>
-            MEDIA
+
+            <span>
+                04
+            </span>
+
+            EXTRACURRICULAR
+
         </a>
+
+
+        <!-- 05 CONTACT -->
 
         <a
             href="contact.html"
             class="nav-link magnetic"
         >
-            <span>06</span>
+
+            <span>
+                05
+            </span>
+
             CONTACT
+
         </a>
 
     </nav>
 
+
+    <!-- SEARCH -->
 
     <button
         class="search-trigger magnetic"
@@ -224,6 +277,8 @@
 
     </button>
 
+
+    <!-- MOBILE MENU BUTTON -->
 
     <button
         class="menu-toggle"
@@ -242,6 +297,7 @@
 
 <!-- =========================================================
      MOBILE MENU
+     SAME 5 ITEMS
 ========================================================= -->
 
 <div
@@ -250,6 +306,7 @@
 >
 
     <div class="mobile-menu-inner">
+
 
         <div class="mobile-menu-top">
 
@@ -266,53 +323,86 @@
 
         <nav>
 
-            <a
-                href="index.html"
-                class="mobile-link magnetic"
-            >
-                <small>01</small>
-                HOME
-            </a>
+
+            <!-- HOME -->
 
             <a
-                href="index.html#about"
+                href="index.html#home"
                 class="mobile-link magnetic"
             >
-                <small>02</small>
-                ABOUT
+
+                <small>
+                    01
+                </small>
+
+                HOME
+
             </a>
+
+
+            <!-- ACADEMIC -->
 
             <a
                 href="academic.html"
                 class="mobile-link magnetic"
             >
-                <small>03</small>
+
+                <small>
+                    02
+                </small>
+
                 ACADEMIC
+
             </a>
+
+
+            <!-- INTERNSHIP -->
 
             <a
                 href="internship.html"
                 class="mobile-link magnetic"
             >
-                <small>04</small>
-                EXPERIENCE
+
+                <small>
+                    03
+                </small>
+
+                INTERNSHIP
+
             </a>
+
+
+            <!-- EXTRACURRICULAR -->
 
             <a
                 href="extracurricular.html"
                 class="mobile-link magnetic"
             >
-                <small>05</small>
-                MEDIA
+
+                <small>
+                    04
+                </small>
+
+                EXTRACURRICULAR
+
             </a>
+
+
+            <!-- CONTACT -->
 
             <a
                 href="contact.html"
                 class="mobile-link magnetic"
             >
-                <small>06</small>
+
+                <small>
+                    05
+                </small>
+
                 CONTACT
+
             </a>
+
 
         </nav>
 
@@ -339,6 +429,7 @@
 
     <div class="search-overlay-inner">
 
+
         <button
             class="search-close magnetic"
             id="searchClose"
@@ -347,13 +438,17 @@
 
             CLOSE
 
-            <span>×</span>
+            <span>
+                ×
+            </span>
 
         </button>
 
 
         <div class="search-kicker">
+
             SEARCH / ACADEMIC ARCHIVE
+
         </div>
 
 
@@ -365,6 +460,7 @@
                 placeholder="Search projects..."
                 autocomplete="off"
             >
+
 
             <div class="search-input-icon">
                 ↗
@@ -384,21 +480,18 @@
 
 
 <!-- =========================================================
-     HERO / ACADEMIC INTRO
+     MAIN
 ========================================================= -->
 
 <main>
 
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
 <section
     class="academic-hero section-dark"
-    style="
-        position:relative;
-        min-height:100svh;
-        display:flex;
-        align-items:flex-end;
-        overflow:hidden;
-        padding:150px 0 80px;
-    "
 >
 
     <div
@@ -408,14 +501,17 @@
 
 
     <div
-        class="section-container"
+        class="section-container academic-hero-container"
         style="z-index:2;"
     >
+
+
+        <!-- TOP LINE -->
 
         <div class="section-topline">
 
             <span>
-                03 / ACADEMIC PORTFOLIO
+                02 / ACADEMIC PORTFOLIO
             </span>
 
             <span>
@@ -425,16 +521,13 @@
         </div>
 
 
-        <div
-            style="
-                padding:100px 0 40px;
-                max-width:1250px;
-            "
-        >
+        <!-- HERO CONTENT -->
+
+        <div class="academic-hero-content">
+
 
             <div
                 class="eyebrow reveal-up"
-                style="margin-bottom:35px;"
             >
 
                 <span class="eyebrow-dot"></span>
@@ -445,141 +538,80 @@
 
 
             <h1
-                class="reveal-title"
-                style="
-                    font:800 clamp(70px,12vw,175px)/.76 var(--display);
-                    letter-spacing:-.085em;
-                "
+                class="academic-hero-title reveal-title"
             >
 
                 RESEARCH
 
-                <span
-                    style="
-                        display:block;
-                        color:transparent;
-                        -webkit-text-stroke:1px rgba(255,255,255,.7);
-                    "
-                >
+
+                <span class="outline-word">
                     INTO
                 </span>
 
-                <span
-                    style="
-                        display:block;
-                        background:linear-gradient(
-                            90deg,
-                            var(--cyan),
-                            var(--blue),
-                            var(--violet),
-                            var(--magenta),
-                            var(--yellow)
-                        );
-                        background-size:300% 100%;
-                        animation:gradientMove 7s linear infinite;
-                        -webkit-background-clip:text;
-                        background-clip:text;
-                        color:transparent;
-                    "
-                >
+
+                <span class="gradient-word">
                     REALITY.
                 </span>
 
             </h1>
 
 
-            <div
-                style="
-                    display:grid;
-                    grid-template-columns:1fr 1fr;
-                    gap:80px;
-                    margin-top:75px;
-                    align-items:end;
-                "
-            >
+            <div class="academic-hero-info">
+
+
+                <!-- DESCRIPTION -->
 
                 <div class="reveal-text">
 
-                    <p
-                        style="
-                            max-width:520px;
-                            color:rgba(255,255,255,.65);
-                            font-size:14px;
-                            line-height:1.9;
-                        "
-                    >
+                    <p>
+
                         A curated archive of academic research,
                         communication projects, journalism work,
                         creative experiments and field-based
                         assignments developed throughout my
                         academic journey.
+
                     </p>
 
                 </div>
 
 
+                <!-- PROJECT COUNT -->
+
                 <div
-                    class="reveal-text"
-                    style="
-                        justify-self:end;
-                        text-align:right;
-                    "
+                    class="academic-project-count reveal-text"
                 >
 
-                    <div
-                        style="
-                            font:800 clamp(45px,6vw,90px)/.8 var(--display);
-                            letter-spacing:-.07em;
-                            color:var(--cyan);
-                        "
-                    >
-                        09+
+                    <div class="count-number">
+
+                        14
+
                     </div>
 
-                    <div
-                        style="
-                            margin-top:10px;
-                            font:500 9px var(--mono);
-                            color:rgba(255,255,255,.45);
-                            letter-spacing:.12em;
-                        "
-                    >
-                        SELECTED PROJECTS
+
+                    <div class="count-label">
+
+                        ACADEMIC PROJECTS
+
                     </div>
 
                 </div>
+
 
             </div>
 
         </div>
 
 
-        <div
-            style="
-                display:flex;
-                justify-content:space-between;
-                align-items:center;
-                padding-top:25px;
-                border-top:1px solid rgba(255,255,255,.15);
-            "
-        >
+        <!-- HERO FOOTER -->
 
-            <span
-                style="
-                    font:500 9px var(--mono);
-                    color:rgba(255,255,255,.4);
-                    letter-spacing:.12em;
-                "
-            >
+        <div class="academic-hero-footer">
+
+            <span>
                 UNIVERSITY / ACADEMIC ARCHIVE
             </span>
 
-            <span
-                style="
-                    font:500 9px var(--mono);
-                    color:rgba(255,255,255,.4);
-                "
-            >
+            <span>
                 SCROLL ↓
             </span>
 
@@ -598,32 +630,85 @@
 
     <div class="marquee-track">
 
-        <span>RESEARCH</span>
-        <i>✦</i>
+        <span>
+            RESEARCH
+        </span>
 
-        <span>COMMUNICATION</span>
-        <i>✦</i>
+        <i>
+            ✦
+        </i>
 
-        <span>JOURNALISM</span>
-        <i>✦</i>
 
-        <span>MEDIA</span>
-        <i>✦</i>
+        <span>
+            COMMUNICATION
+        </span>
 
-        <span>FIELDWORK</span>
-        <i>✦</i>
+        <i>
+            ✦
+        </i>
 
-        <span>RESEARCH</span>
-        <i>✦</i>
 
-        <span>COMMUNICATION</span>
-        <i>✦</i>
+        <span>
+            JOURNALISM
+        </span>
 
-        <span>JOURNALISM</span>
-        <i>✦</i>
+        <i>
+            ✦
+        </i>
 
-        <span>MEDIA</span>
-        <i>✦</i>
+
+        <span>
+            MEDIA
+        </span>
+
+        <i>
+            ✦
+        </i>
+
+
+        <span>
+            FIELDWORK
+        </span>
+
+        <i>
+            ✦
+        </i>
+
+
+        <span>
+            RESEARCH
+        </span>
+
+        <i>
+            ✦
+        </i>
+
+
+        <span>
+            COMMUNICATION
+        </span>
+
+        <i>
+            ✦
+        </i>
+
+
+        <span>
+            JOURNALISM
+        </span>
+
+        <i>
+            ✦
+        </i>
+
+
+        <span>
+            MEDIA
+        </span>
+
+        <i>
+            ✦
+        </i>
 
     </div>
 
@@ -631,15 +716,15 @@
 
 
 <!-- =========================================================
-     INTRO
+     OVERVIEW
 ========================================================= -->
 
 <section
     class="academic-preview section-light"
-    style="padding-bottom:80px;"
 >
 
     <div class="section-container">
+
 
         <div class="section-topline dark">
 
@@ -655,6 +740,7 @@
 
 
         <div class="academic-heading">
+
 
             <h2 class="reveal-title">
 
@@ -682,21 +768,9 @@
         </div>
 
 
-        <div
-            style="
-                max-width:800px;
-                margin-bottom:80px;
-            "
-        >
+        <div class="academic-overview-text">
 
-            <p
-                class="reveal-text"
-                style="
-                    color:var(--muted);
-                    font-size:14px;
-                    line-height:2;
-                "
-            >
+            <p class="reveal-text">
 
                 The archive is designed not only as a
                 collection of assignments, but as a record
@@ -717,11 +791,13 @@
 ========================================================= -->
 
 <section
-    class="section-dark"
-    style="padding:80px 0 150px;"
+    class="section-dark academic-archive"
 >
 
     <div class="section-container">
+
+
+        <!-- SECTION TOP -->
 
         <div class="section-topline">
 
@@ -736,54 +812,39 @@
         </div>
 
 
-        <div
-            style="
-                margin:100px 0 60px;
-                display:flex;
-                justify-content:space-between;
-                align-items:end;
-                gap:30px;
-            "
-        >
+        <!-- ARCHIVE HEADER -->
+
+        <div class="academic-archive-header">
+
 
             <div>
 
                 <div class="section-number light">
-                    ACADEMIC / 001—009
+
+                    ACADEMIC / 001—014
+
                 </div>
 
-                <h2
-                    class="reveal-title"
-                    style="
-                        font:800 clamp(55px,9vw,130px)/.8 var(--display);
-                        letter-spacing:-.075em;
-                    "
-                >
+
+                <h2 class="academic-archive-title reveal-title">
+
                     SELECTED
-                    <span
-                        style="
-                            display:block;
-                            color:transparent;
-                            -webkit-text-stroke:1px rgba(255,255,255,.65);
-                        "
-                    >
+
+                    <span>
                         PROJECTS
                     </span>
+
                 </h2>
 
             </div>
 
 
-            <div
-                style="
-                    max-width:300px;
-                    color:rgba(255,255,255,.45);
-                    font:500 9px/1.8 var(--mono);
-                "
-            >
+            <div class="academic-archive-description">
+
                 EXPLORE A SELECTION OF
                 RESEARCH, COMMUNICATION
                 AND MEDIA PROJECTS.
+
             </div>
 
         </div>
@@ -796,7 +857,9 @@
         <div class="project-grid">
 
 
-            <!-- PROJECT 01 -->
+            <!-- =================================================
+                 PROJECT 01
+            ================================================== -->
 
             <a
                 href="projects/project-01.html"
@@ -848,7 +911,9 @@
             </a>
 
 
-            <!-- PROJECT 02 -->
+            <!-- =================================================
+                 PROJECT 02
+            ================================================== -->
 
             <a
                 href="projects/project-02.html"
@@ -898,7 +963,9 @@
             </a>
 
 
-            <!-- PROJECT 03 -->
+            <!-- =================================================
+                 PROJECT 03
+            ================================================== -->
 
             <a
                 href="projects/project-03.html"
@@ -919,7 +986,9 @@
 
 
                 <div class="project-shape project-type">
+
                     MASK
+
                 </div>
 
 
@@ -943,7 +1012,9 @@
             </a>
 
 
-            <!-- PROJECT 04 -->
+            <!-- =================================================
+                 PROJECT 04
+            ================================================== -->
 
             <a
                 href="projects/project-04.html"
@@ -986,7 +1057,9 @@
             </a>
 
 
-            <!-- PROJECT 05 -->
+            <!-- =================================================
+                 PROJECT 05
+            ================================================== -->
 
             <a
                 href="projects/project-05.html"
@@ -1039,7 +1112,9 @@
             </a>
 
 
-            <!-- PROJECT 06 -->
+            <!-- =================================================
+                 PROJECT 06
+            ================================================== -->
 
             <a
                 href="projects/project-06.html"
@@ -1092,379 +1167,198 @@
 
 
         <!-- =================================================
-             PROJECT LIST / EXTENDED ARCHIVE
+             EXTENDED PROJECT ARCHIVE
         ================================================== -->
 
-        <div
-            style="
-                margin-top:2px;
-                background:rgba(255,255,255,.025);
-                border-top:1px solid rgba(255,255,255,.12);
-            "
-        >
+        <div class="academic-list">
 
-            <!-- 07 -->
+
+            <!-- PROJECT 07 -->
 
             <a
                 href="projects/project-07.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     07
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     Video Art
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     CONVERGENCE II ↗
                 </span>
 
             </a>
 
 
-            <!-- 08 -->
+            <!-- PROJECT 08 -->
 
             <a
                 href="projects/project-08.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     08
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     In-depth Report
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     NEWS SOURCING ↗
                 </span>
 
             </a>
 
 
-            <!-- 09 -->
+            <!-- PROJECT 09 -->
 
             <a
                 href="projects/project-09.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     09
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     Multimedia Story
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     ONLINE JOURNALISM ↗
                 </span>
 
             </a>
 
 
-            <!-- 10 -->
+            <!-- PROJECT 10 -->
 
             <a
                 href="projects/project-10.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     10
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     Mojo Project
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     MOBILE JOURNALISM ↗
                 </span>
 
             </a>
 
 
-            <!-- 11 -->
+            <!-- PROJECT 11 -->
 
             <a
                 href="projects/project-11.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     11
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     News Editing & Translation
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     NEWS EDITING ↗
                 </span>
 
             </a>
 
 
-            <!-- 12 -->
+            <!-- PROJECT 12 -->
 
             <a
                 href="projects/project-12.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     12
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     Data Project
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     DATA JOURNALISM ↗
                 </span>
 
             </a>
 
 
-            <!-- 13 -->
+            <!-- PROJECT 13 -->
 
             <a
                 href="projects/project-13.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     13
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     Investigative Journalism I
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     NEWS PACKAGE ↗
                 </span>
 
             </a>
 
 
-            <!-- 14 -->
+            <!-- PROJECT 14 -->
 
             <a
                 href="projects/project-14.html"
                 class="academic-list-item"
-                style="
-                    display:grid;
-                    grid-template-columns:80px 1fr auto;
-                    gap:30px;
-                    align-items:center;
-                    padding:32px 20px;
-                    border-bottom:1px solid rgba(255,255,255,.1);
-                    transition:.45s var(--ease);
-                "
             >
 
-                <span
-                    style="
-                        font:500 10px var(--mono);
-                        color:var(--cyan);
-                    "
-                >
+                <span class="list-number">
                     14
                 </span>
 
-                <span
-                    style="
-                        font:700 clamp(22px,3vw,38px) var(--display);
-                        letter-spacing:-.04em;
-                    "
-                >
+
+                <span class="list-title">
                     Investigative Journalism II
                 </span>
 
-                <span
-                    style="
-                        font:500 9px var(--mono);
-                        color:rgba(255,255,255,.4);
-                    "
-                >
+
+                <span class="list-category">
                     NEWS PACKAGE ↗
                 </span>
 
@@ -1477,14 +1371,10 @@
              ARCHIVE CTA
         ================================================== -->
 
-        <div
-            style="
-                margin-top:90px;
-            "
-        >
+        <div class="academic-archive-cta">
 
             <a
-                href="index.html"
+                href="index.html#home"
                 class="big-link magnetic"
             >
 
@@ -1506,15 +1396,15 @@
 
 
 <!-- =========================================================
-     ACADEMIC STATEMENT
+     ACADEMIC APPROACH
 ========================================================= -->
 
 <section
-    class="section-light"
-    style="padding:150px 0;"
+    class="section-light academic-approach"
 >
 
     <div class="section-container">
+
 
         <div class="section-topline dark">
 
@@ -1529,42 +1419,22 @@
         </div>
 
 
-        <div
-            style="
-                display:grid;
-                grid-template-columns:1.2fr .8fr;
-                gap:10%;
-                align-items:end;
-                margin-top:100px;
-            "
-        >
+        <!-- APPROACH INTRO -->
 
-            <h2
-                class="reveal-title"
-                style="
-                    font:800 clamp(55px,8vw,120px)/.82 var(--display);
-                    letter-spacing:-.075em;
-                "
-            >
+        <div class="academic-approach-intro">
+
+
+            <h2 class="reveal-title">
 
                 FROM
 
-                <span
-                    style="
-                        color:var(--blue);
-                    "
-                >
+                <span class="blue-word">
                     IDEA
                 </span>
 
                 TO
 
-                <span
-                    style="
-                        color:transparent;
-                        -webkit-text-stroke:1px var(--ink);
-                    "
-                >
+                <span class="outline-dark">
                     IMPACT.
                 </span>
 
@@ -1573,13 +1443,7 @@
 
             <div class="reveal-text">
 
-                <p
-                    style="
-                        color:var(--muted);
-                        font-size:14px;
-                        line-height:2;
-                    "
-                >
+                <p>
 
                     Academic work is where curiosity becomes
                     structured thinking. Through research,
@@ -1594,141 +1458,84 @@
         </div>
 
 
-        <div
-            style="
-                display:grid;
-                grid-template-columns:repeat(3,1fr);
-                gap:1px;
-                background:var(--line);
-                margin-top:100px;
-                border:1px solid var(--line);
-            "
-        >
+        <!-- APPROACH CARDS -->
+
+        <div class="approach-grid">
+
+
+            <!-- RESEARCH -->
 
             <div
-                style="
-                    padding:45px 30px;
-                    background:var(--paper);
-                "
-                class="reveal-up"
+                class="approach-card reveal-up"
             >
 
-                <span
-                    style="
-                        display:block;
-                        color:var(--blue);
-                        font:500 9px var(--mono);
-                    "
-                >
+                <span class="approach-number research-number">
                     01
                 </span>
 
-                <strong
-                    style="
-                        display:block;
-                        margin-top:25px;
-                        font:700 28px var(--display);
-                    "
-                >
+
+                <strong>
                     RESEARCH
                 </strong>
 
-                <p
-                    style="
-                        margin-top:15px;
-                        color:var(--muted);
-                        font-size:12px;
-                        line-height:1.8;
-                    "
-                >
+
+                <p>
+
                     Questions, evidence and structured
                     investigation.
+
                 </p>
 
             </div>
 
 
+            <!-- STORY -->
+
             <div
-                style="
-                    padding:45px 30px;
-                    background:var(--paper);
-                "
-                class="reveal-up delay-one"
+                class="approach-card reveal-up delay-one"
             >
 
-                <span
-                    style="
-                        display:block;
-                        color:var(--violet);
-                        font:500 9px var(--mono);
-                    "
-                >
+                <span class="approach-number story-number">
                     02
                 </span>
 
-                <strong
-                    style="
-                        display:block;
-                        margin-top:25px;
-                        font:700 28px var(--display);
-                    "
-                >
+
+                <strong>
                     STORY
                 </strong>
 
-                <p
-                    style="
-                        margin-top:15px;
-                        color:var(--muted);
-                        font-size:12px;
-                        line-height:1.8;
-                    "
-                >
+
+                <p>
+
                     Turning information into meaningful
                     narratives.
+
                 </p>
 
             </div>
 
 
+            <!-- IMPACT -->
+
             <div
-                style="
-                    padding:45px 30px;
-                    background:var(--paper);
-                "
-                class="reveal-up delay-two"
+                class="approach-card reveal-up delay-two"
             >
 
-                <span
-                    style="
-                        display:block;
-                        color:var(--magenta);
-                        font:500 9px var(--mono);
-                    "
-                >
+                <span class="approach-number impact-number">
                     03
                 </span>
 
-                <strong
-                    style="
-                        display:block;
-                        margin-top:25px;
-                        font:700 28px var(--display);
-                    "
-                >
+
+                <strong>
                     IMPACT
                 </strong>
 
-                <p
-                    style="
-                        margin-top:15px;
-                        color:var(--muted);
-                        font-size:12px;
-                        line-height:1.8;
-                    "
-                >
+
+                <p>
+
                     Communication designed to connect
                     ideas with people.
+
                 </p>
 
             </div>
@@ -1751,8 +1558,11 @@
 
     <div class="cta-inner">
 
+
         <div class="cta-kicker">
+
             NEXT / EXPLORE
+
         </div>
 
 
@@ -1768,12 +1578,14 @@
 
 
         <p>
+
             More work, more stories, more perspectives.
+
         </p>
 
 
         <a
-            href="index.html"
+            href="index.html#home"
             class="cta-button magnetic"
         >
 
@@ -1799,7 +1611,9 @@
 
 <footer class="footer">
 
+
     <div class="footer-top">
+
 
         <div class="footer-brand">
 
@@ -1814,14 +1628,18 @@
         </div>
 
 
+        <!-- FOOTER NAV — SAME 5 ITEMS -->
+
         <div class="footer-links">
 
+
             <a
-                href="index.html"
+                href="index.html#home"
                 class="magnetic"
             >
                 HOME
             </a>
+
 
             <a
                 href="academic.html"
@@ -1830,19 +1648,22 @@
                 ACADEMIC
             </a>
 
+
             <a
                 href="internship.html"
                 class="magnetic"
             >
-                EXPERIENCE
+                INTERNSHIP
             </a>
+
 
             <a
                 href="extracurricular.html"
                 class="magnetic"
             >
-                MEDIA
+                EXTRACURRICULAR
             </a>
+
 
             <a
                 href="contact.html"
@@ -1862,6 +1683,7 @@
             © 2026 SANIM. ALL RIGHTS RESERVED.
         </span>
 
+
         <span>
             ACADEMIC ARCHIVE / 2022—2026
         </span>
@@ -1872,85 +1694,728 @@
 
 
 <!-- =========================================================
-     JS
+     GLOBAL JAVASCRIPT
 ========================================================= -->
 
 <script src="script.js"></script>
 
 
 <!-- =========================================================
-     PAGE-SPECIFIC HOVER
+     PAGE-SPECIFIC CSS
 ========================================================= -->
 
 <style>
 
-.academic-list-item:hover {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
-    background: rgba(23,105,255,.12);
+/* =========================================================
+   ACADEMIC HERO
+========================================================= */
+
+.academic-hero {
+    position: relative;
+    min-height: 100svh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 150px 0 80px;
 }
 
-.academic-list-item:hover span:nth-child(2) {
+
+.academic-hero-container {
+    width: 100%;
+}
+
+
+.academic-hero-content {
+    padding: 100px 0 40px;
+    max-width: 1250px;
+}
+
+
+.academic-hero-title {
+    margin: 0;
+    font: 800 clamp(70px, 12vw, 175px) / .76 var(--display);
+    letter-spacing: -.085em;
+}
+
+
+.academic-hero-title .outline-word {
+    display: block;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+
+.academic-hero-title .gradient-word {
+    display: block;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--cyan),
+            var(--blue),
+            var(--violet),
+            var(--magenta),
+            var(--yellow)
+        );
+
+    background-size: 300% 100%;
+
+    animation: gradientMove 7s linear infinite;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+
+.academic-hero-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-top: 75px;
+    align-items: end;
+}
+
+
+.academic-hero-info p {
+    max-width: 520px;
+    color: rgba(255,255,255,.65);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+
+.academic-project-count {
+    justify-self: end;
+    text-align: right;
+}
+
+
+.count-number {
+    font: 800 clamp(55px,6vw,90px) / .8 var(--display);
+    letter-spacing: -.07em;
     color: var(--cyan);
 }
 
-@media (max-width:800px) {
 
-    .academic-hero > .section-container > div:nth-child(2) {
-        padding-top:70px !important;
+.count-label {
+    margin-top: 12px;
+    font: 500 9px var(--mono);
+    color: rgba(255,255,255,.45);
+    letter-spacing: .12em;
+}
+
+
+.academic-hero-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 25px;
+
+    border-top:
+        1px solid
+        rgba(255,255,255,.15);
+
+    font: 500 9px var(--mono);
+
+    color:
+        rgba(255,255,255,.4);
+
+    letter-spacing: .12em;
+}
+
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.academic-preview {
+    padding-bottom: 80px;
+}
+
+
+.academic-heading {
+    margin: 100px 0 70px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.15fr
+        .85fr;
+
+    gap: 10%;
+
+    align-items: end;
+}
+
+
+.academic-heading h2 {
+    margin: 0;
+
+    font:
+        800
+        clamp(55px,8vw,115px)
+        /.82
+        var(--display);
+
+    letter-spacing: -.075em;
+}
+
+
+.academic-heading h2 span {
+    color: var(--blue);
+}
+
+
+.academic-heading p {
+    color: var(--muted);
+
+    font-size: 14px;
+
+    line-height: 1.9;
+}
+
+
+.academic-overview-text {
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+
+.academic-overview-text p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+/* =========================================================
+   ARCHIVE
+========================================================= */
+
+.academic-archive {
+    padding: 80px 0 150px;
+}
+
+
+.academic-archive-header {
+    margin: 100px 0 60px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    gap: 30px;
+}
+
+
+.academic-archive-title {
+    margin-top: 20px;
+
+    font:
+        800
+        clamp(55px,9vw,130px)
+        /.8
+        var(--display);
+
+    letter-spacing: -.075em;
+}
+
+
+.academic-archive-title span {
+    display: block;
+
+    color: transparent;
+
+    -webkit-text-stroke:
+        1px
+        rgba(255,255,255,.65);
+}
+
+
+.academic-archive-description {
+    max-width: 300px;
+
+    color:
+        rgba(255,255,255,.45);
+
+    font:
+        500
+        9px/1.8
+        var(--mono);
+}
+
+
+/* =========================================================
+   PROJECT LIST
+========================================================= */
+
+.academic-list {
+    margin-top: 2px;
+
+    background:
+        rgba(255,255,255,.025);
+
+    border-top:
+        1px solid
+        rgba(255,255,255,.12);
+}
+
+
+.academic-list-item {
+    display: grid;
+
+    grid-template-columns:
+        80px
+        1fr
+        auto;
+
+    gap: 30px;
+
+    align-items: center;
+
+    padding: 32px 20px;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,.1);
+
+    transition:
+        .45s
+        var(--ease);
+
+    text-decoration: none;
+
+    color: inherit;
+}
+
+
+.academic-list-item:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background:
+        rgba(23,105,255,.12);
+}
+
+
+.list-number {
+    font:
+        500
+        10px
+        var(--mono);
+
+    color: var(--cyan);
+}
+
+
+.list-title {
+    font:
+        700
+        clamp(22px,3vw,38px)
+        var(--display);
+
+    letter-spacing: -.04em;
+
+    transition:
+        .3s
+        ease;
+}
+
+
+.list-category {
+    font:
+        500
+        9px
+        var(--mono);
+
+    color:
+        rgba(255,255,255,.4);
+}
+
+
+.academic-list-item:hover .list-title {
+    color: var(--cyan);
+}
+
+
+/* =========================================================
+   ARCHIVE CTA
+========================================================= */
+
+.academic-archive-cta {
+    margin-top: 90px;
+}
+
+
+/* =========================================================
+   APPROACH
+========================================================= */
+
+.academic-approach {
+    padding: 150px 0;
+}
+
+
+.academic-approach-intro {
+    display: grid;
+
+    grid-template-columns:
+        1.2fr
+        .8fr;
+
+    gap: 10%;
+
+    align-items: end;
+
+    margin-top: 100px;
+}
+
+
+.academic-approach-intro h2 {
+    margin: 0;
+
+    font:
+        800
+        clamp(55px,8vw,120px)
+        /.82
+        var(--display);
+
+    letter-spacing: -.075em;
+}
+
+
+.blue-word {
+    color: var(--blue);
+}
+
+
+.outline-dark {
+    color: transparent;
+
+    -webkit-text-stroke:
+        1px
+        var(--ink);
+}
+
+
+.academic-approach-intro p {
+    color: var(--muted);
+
+    font-size: 14px;
+
+    line-height: 2;
+}
+
+
+/* =========================================================
+   APPROACH CARDS
+========================================================= */
+
+.approach-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap: 1px;
+
+    background: var(--line);
+
+    margin-top: 100px;
+
+    border:
+        1px solid
+        var(--line);
+}
+
+
+.approach-card {
+    padding: 45px 30px;
+
+    background:
+        var(--paper);
+}
+
+
+.approach-number {
+    display: block;
+
+    font:
+        500
+        9px
+        var(--mono);
+}
+
+
+.research-number {
+    color: var(--blue);
+}
+
+
+.story-number {
+    color: var(--violet);
+}
+
+
+.impact-number {
+    color: var(--magenta);
+}
+
+
+.approach-card strong {
+    display: block;
+
+    margin-top: 25px;
+
+    font:
+        700
+        28px
+        var(--display);
+}
+
+
+.approach-card p {
+    margin-top: 15px;
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 800px) {
+
+
+    /* HERO */
+
+    .academic-hero {
+        min-height: auto;
+
+        padding:
+            130px
+            0
+            55px;
     }
 
-    .academic-hero
-    .section-container
-    > div:nth-child(2)
-    > div:last-child {
 
-        grid-template-columns:1fr !important;
-        gap:35px !important;
-
+    .academic-hero-content {
+        padding:
+            70px
+            0
+            40px;
     }
 
-    .academic-hero
-    .section-container
-    > div:nth-child(2)
-    > div:last-child
-    > div:last-child {
 
-        justify-self:start !important;
-        text-align:left !important;
+    .academic-hero-title {
+        font-size:
+            clamp(58px,17vw,105px);
 
+        line-height:
+            .8;
     }
+
+
+    .academic-hero-info {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+        margin-top: 60px;
+    }
+
+
+    .academic-project-count {
+        justify-self: start;
+
+        text-align: left;
+    }
+
+
+    .academic-hero-footer {
+        align-items: flex-start;
+
+        gap: 20px;
+
+        flex-direction: column;
+    }
+
+
+    /* OVERVIEW */
 
     .academic-heading {
-        margin:70px 0 50px !important;
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+
+        margin:
+            70px
+            0
+            50px;
     }
+
+
+    .academic-heading h2 {
+        font-size:
+            clamp(50px,14vw,90px);
+    }
+
+
+    /* ARCHIVE */
+
+    .academic-archive {
+        padding:
+            70px
+            0
+            100px;
+    }
+
+
+    .academic-archive-header {
+        margin:
+            70px
+            0
+            50px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .academic-archive-title {
+        font-size:
+            clamp(52px,14vw,95px);
+    }
+
+
+    .academic-archive-description {
+        max-width: 260px;
+    }
+
+
+    /* LIST */
 
     .academic-list-item {
-        grid-template-columns:45px 1fr !important;
-        gap:15px !important;
-        padding:25px 10px !important;
+        grid-template-columns:
+            45px
+            1fr;
+
+        gap: 15px;
+
+        padding:
+            25px
+            10px;
     }
 
-    .academic-list-item span:last-child {
-        grid-column:2;
+
+    .list-title {
+        font-size:
+            clamp(22px,7vw,32px);
     }
+
+
+    .list-category {
+        grid-column: 2;
+    }
+
 
     .academic-list-item:hover {
-        padding-left:20px !important;
-        padding-right:20px !important;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .section-light
-    .section-container
-    > div:nth-last-child(1) {
 
-        grid-template-columns:1fr !important;
+    /* APPROACH */
 
+    .academic-approach {
+        padding:
+            100px
+            0;
     }
+
+
+    .academic-approach-intro {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
+        margin-top: 70px;
+    }
+
+
+    .academic-approach-intro h2 {
+        font-size:
+            clamp(52px,14vw,95px);
+    }
+
+
+    .approach-grid {
+        grid-template-columns: 1fr;
+
+        margin-top: 70px;
+    }
+
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+
+    .academic-hero-title {
+        font-size:
+            17vw;
+    }
+
+
+    .academic-hero-info p {
+        font-size: 13px;
+    }
+
+
+    .academic-list-item {
+        padding:
+            22px
+            5px;
+    }
+
+
+    .academic-list-item:hover {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .list-title {
+        font-size: 22px;
+    }
+
+
+    .list-category {
+        font-size: 8px;
+    }
+
 
 }
 
 </style>
 
+
 </body>
+
 </html>
