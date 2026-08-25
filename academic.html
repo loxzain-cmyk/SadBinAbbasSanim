@@ -1,1 +1,1956 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Academic Portfolio | Sanim</title>
+
+    <meta
+        name="description"
+        content="Academic portfolio of Sanim — research, communication, journalism and creative academic projects."
+    >
+
+    <meta name="author" content="Sanim">
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- =====================================================
+         GLOBAL CSS
+    ====================================================== -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="loading">
+
+
+<!-- =========================================================
+     GLOBAL ATMOSPHERE
+========================================================= -->
+
+<div class="global-noise"></div>
+
+<div class="color-orb orb-one"></div>
+<div class="color-orb orb-two"></div>
+<div class="color-orb orb-three"></div>
+
+<div class="mouse-glow"></div>
+
+
+<!-- =========================================================
+     CUSTOM CURSOR
+========================================================= -->
+
+<div class="cursor-dot"></div>
+
+<div class="cursor-ring"></div>
+
+<div class="cursor-label">
+    VIEW
+</div>
+
+
+<!-- =========================================================
+     LOADER
+========================================================= -->
+
+<div class="loader" id="loader">
+
+    <div class="loader-inner">
+
+        <div class="loader-top">
+
+            <span>
+                SANIM / ACADEMIC
+            </span>
+
+            <span>
+                PORTFOLIO
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <div class="loader-title">
+
+                <span>
+                    ACADEMIC
+                </span>
+
+                <span>
+                    WORKS
+                </span>
+
+                <span>
+                    / 2022—26
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="loader-line">
+                <span></span>
+            </div>
+
+            <div class="loader-meta">
+
+                <span>
+                    LOADING ARCHIVE
+                </span>
+
+                <span id="loaderPercent">
+                    00%
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar" id="navbar">
+
+    <a
+        href="index.html"
+        class="brand magnetic"
+    >
+
+        <span class="brand-mark">
+            S
+        </span>
+
+        <span>
+            SANIM
+        </span>
+
+    </a>
+
+
+    <nav class="desktop-nav">
+
+        <a
+            href="index.html"
+            class="nav-link magnetic"
+        >
+            <span>01</span>
+            HOME
+        </a>
+
+        <a
+            href="index.html#about"
+            class="nav-link magnetic"
+        >
+            <span>02</span>
+            ABOUT
+        </a>
+
+        <a
+            href="academic.html"
+            class="nav-link active magnetic"
+        >
+            <span>03</span>
+            ACADEMIC
+        </a>
+
+        <a
+            href="internship.html"
+            class="nav-link magnetic"
+        >
+            <span>04</span>
+            EXPERIENCE
+        </a>
+
+        <a
+            href="extracurricular.html"
+            class="nav-link magnetic"
+        >
+            <span>05</span>
+            MEDIA
+        </a>
+
+        <a
+            href="contact.html"
+            class="nav-link magnetic"
+        >
+            <span>06</span>
+            CONTACT
+        </a>
+
+    </nav>
+
+
+    <button
+        class="search-trigger magnetic"
+        id="searchTrigger"
+        type="button"
+    >
+
+        SEARCH
+
+        <span class="search-icon"></span>
+
+    </button>
+
+
+    <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open menu"
+    >
+
+        <span></span>
+        <span></span>
+
+    </button>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE MENU
+========================================================= -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <div class="mobile-menu-inner">
+
+        <div class="mobile-menu-top">
+
+            <span>
+                SANIM / NAVIGATION
+            </span>
+
+            <span>
+                MENU
+            </span>
+
+        </div>
+
+
+        <nav>
+
+            <a
+                href="index.html"
+                class="mobile-link magnetic"
+            >
+                <small>01</small>
+                HOME
+            </a>
+
+            <a
+                href="index.html#about"
+                class="mobile-link magnetic"
+            >
+                <small>02</small>
+                ABOUT
+            </a>
+
+            <a
+                href="academic.html"
+                class="mobile-link magnetic"
+            >
+                <small>03</small>
+                ACADEMIC
+            </a>
+
+            <a
+                href="internship.html"
+                class="mobile-link magnetic"
+            >
+                <small>04</small>
+                EXPERIENCE
+            </a>
+
+            <a
+                href="extracurricular.html"
+                class="mobile-link magnetic"
+            >
+                <small>05</small>
+                MEDIA
+            </a>
+
+            <a
+                href="contact.html"
+                class="mobile-link magnetic"
+            >
+                <small>06</small>
+                CONTACT
+            </a>
+
+        </nav>
+
+
+        <div class="mobile-menu-bottom">
+
+            ACADEMIC ARCHIVE / 2022—2026
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     SEARCH OVERLAY
+========================================================= -->
+
+<div
+    class="search-overlay"
+    id="searchOverlay"
+>
+
+    <div class="search-overlay-inner">
+
+        <button
+            class="search-close magnetic"
+            id="searchClose"
+            type="button"
+        >
+
+            CLOSE
+
+            <span>×</span>
+
+        </button>
+
+
+        <div class="search-kicker">
+            SEARCH / ACADEMIC ARCHIVE
+        </div>
+
+
+        <div class="search-input-wrap">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search projects..."
+                autocomplete="off"
+            >
+
+            <div class="search-input-icon">
+                ↗
+            </div>
+
+        </div>
+
+
+        <div
+            class="search-results"
+            id="searchResults"
+        ></div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     HERO / ACADEMIC INTRO
+========================================================= -->
+
+<main>
+
+<section
+    class="academic-hero section-dark"
+    style="
+        position:relative;
+        min-height:100svh;
+        display:flex;
+        align-items:flex-end;
+        overflow:hidden;
+        padding:150px 0 80px;
+    "
+>
+
+    <div
+        class="hero-grid"
+        style="z-index:0;"
+    ></div>
+
+
+    <div
+        class="section-container"
+        style="z-index:2;"
+    >
+
+        <div class="section-topline">
+
+            <span>
+                03 / ACADEMIC PORTFOLIO
+            </span>
+
+            <span>
+                2022 — 2026
+            </span>
+
+        </div>
+
+
+        <div
+            style="
+                padding:100px 0 40px;
+                max-width:1250px;
+            "
+        >
+
+            <div
+                class="eyebrow reveal-up"
+                style="margin-bottom:35px;"
+            >
+
+                <span class="eyebrow-dot"></span>
+
+                SELECTED ACADEMIC WORK
+
+            </div>
+
+
+            <h1
+                class="reveal-title"
+                style="
+                    font:800 clamp(70px,12vw,175px)/.76 var(--display);
+                    letter-spacing:-.085em;
+                "
+            >
+
+                RESEARCH
+
+                <span
+                    style="
+                        display:block;
+                        color:transparent;
+                        -webkit-text-stroke:1px rgba(255,255,255,.7);
+                    "
+                >
+                    INTO
+                </span>
+
+                <span
+                    style="
+                        display:block;
+                        background:linear-gradient(
+                            90deg,
+                            var(--cyan),
+                            var(--blue),
+                            var(--violet),
+                            var(--magenta),
+                            var(--yellow)
+                        );
+                        background-size:300% 100%;
+                        animation:gradientMove 7s linear infinite;
+                        -webkit-background-clip:text;
+                        background-clip:text;
+                        color:transparent;
+                    "
+                >
+                    REALITY.
+                </span>
+
+            </h1>
+
+
+            <div
+                style="
+                    display:grid;
+                    grid-template-columns:1fr 1fr;
+                    gap:80px;
+                    margin-top:75px;
+                    align-items:end;
+                "
+            >
+
+                <div class="reveal-text">
+
+                    <p
+                        style="
+                            max-width:520px;
+                            color:rgba(255,255,255,.65);
+                            font-size:14px;
+                            line-height:1.9;
+                        "
+                    >
+                        A curated archive of academic research,
+                        communication projects, journalism work,
+                        creative experiments and field-based
+                        assignments developed throughout my
+                        academic journey.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="reveal-text"
+                    style="
+                        justify-self:end;
+                        text-align:right;
+                    "
+                >
+
+                    <div
+                        style="
+                            font:800 clamp(45px,6vw,90px)/.8 var(--display);
+                            letter-spacing:-.07em;
+                            color:var(--cyan);
+                        "
+                    >
+                        09+
+                    </div>
+
+                    <div
+                        style="
+                            margin-top:10px;
+                            font:500 9px var(--mono);
+                            color:rgba(255,255,255,.45);
+                            letter-spacing:.12em;
+                        "
+                    >
+                        SELECTED PROJECTS
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div
+            style="
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                padding-top:25px;
+                border-top:1px solid rgba(255,255,255,.15);
+            "
+        >
+
+            <span
+                style="
+                    font:500 9px var(--mono);
+                    color:rgba(255,255,255,.4);
+                    letter-spacing:.12em;
+                "
+            >
+                UNIVERSITY / ACADEMIC ARCHIVE
+            </span>
+
+            <span
+                style="
+                    font:500 9px var(--mono);
+                    color:rgba(255,255,255,.4);
+                "
+            >
+                SCROLL ↓
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     MARQUEE
+========================================================= -->
+
+<section class="marquee-section">
+
+    <div class="marquee-track">
+
+        <span>RESEARCH</span>
+        <i>✦</i>
+
+        <span>COMMUNICATION</span>
+        <i>✦</i>
+
+        <span>JOURNALISM</span>
+        <i>✦</i>
+
+        <span>MEDIA</span>
+        <i>✦</i>
+
+        <span>FIELDWORK</span>
+        <i>✦</i>
+
+        <span>RESEARCH</span>
+        <i>✦</i>
+
+        <span>COMMUNICATION</span>
+        <i>✦</i>
+
+        <span>JOURNALISM</span>
+        <i>✦</i>
+
+        <span>MEDIA</span>
+        <i>✦</i>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     INTRO
+========================================================= -->
+
+<section
+    class="academic-preview section-light"
+    style="padding-bottom:80px;"
+>
+
+    <div class="section-container">
+
+        <div class="section-topline dark">
+
+            <span>
+                01 / OVERVIEW
+            </span>
+
+            <span>
+                SELECTED STUDIES
+            </span>
+
+        </div>
+
+
+        <div class="academic-heading">
+
+            <h2 class="reveal-title">
+
+                THINK
+
+                <span>
+                    / CREATE
+                </span>
+
+                / QUESTION
+
+            </h2>
+
+
+            <p class="reveal-text">
+
+                Each project represents a different stage
+                of my academic development — from
+                communication research and writing to
+                journalism, multimedia storytelling and
+                practical media production.
+
+            </p>
+
+        </div>
+
+
+        <div
+            style="
+                max-width:800px;
+                margin-bottom:80px;
+            "
+        >
+
+            <p
+                class="reveal-text"
+                style="
+                    color:var(--muted);
+                    font-size:14px;
+                    line-height:2;
+                "
+            >
+
+                The archive is designed not only as a
+                collection of assignments, but as a record
+                of how ideas developed into research,
+                stories, experiments and visual communication.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJECT ARCHIVE
+========================================================= -->
+
+<section
+    class="section-dark"
+    style="padding:80px 0 150px;"
+>
+
+    <div class="section-container">
+
+        <div class="section-topline">
+
+            <span>
+                02 / PROJECT ARCHIVE
+            </span>
+
+            <span>
+                SELECTED WORKS
+            </span>
+
+        </div>
+
+
+        <div
+            style="
+                margin:100px 0 60px;
+                display:flex;
+                justify-content:space-between;
+                align-items:end;
+                gap:30px;
+            "
+        >
+
+            <div>
+
+                <div class="section-number light">
+                    ACADEMIC / 001—009
+                </div>
+
+                <h2
+                    class="reveal-title"
+                    style="
+                        font:800 clamp(55px,9vw,130px)/.8 var(--display);
+                        letter-spacing:-.075em;
+                    "
+                >
+                    SELECTED
+                    <span
+                        style="
+                            display:block;
+                            color:transparent;
+                            -webkit-text-stroke:1px rgba(255,255,255,.65);
+                        "
+                    >
+                        PROJECTS
+                    </span>
+                </h2>
+
+            </div>
+
+
+            <div
+                style="
+                    max-width:300px;
+                    color:rgba(255,255,255,.45);
+                    font:500 9px/1.8 var(--mono);
+                "
+            >
+                EXPLORE A SELECTION OF
+                RESEARCH, COMMUNICATION
+                AND MEDIA PROJECTS.
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             PROJECT GRID
+        ================================================== -->
+
+        <div class="project-grid">
+
+
+            <!-- PROJECT 01 -->
+
+            <a
+                href="projects/project-01.html"
+                class="project-card project-one magnetic-card"
+            >
+
+                <div class="project-meta">
+
+                    <span>
+                        01
+                    </span>
+
+                    <span>
+                        RESEARCH
+                    </span>
+
+                </div>
+
+
+                <div class="project-shape project-data">
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span>
+                        COMMUNICATION RESEARCH
+                    </span>
+
+                    <h3>
+                        Communication
+                        Research
+                    </h3>
+
+                </div>
+
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 02 -->
+
+            <a
+                href="projects/project-02.html"
+                class="project-card project-two magnetic-card"
+            >
+
+                <div class="project-meta">
+
+                    <span>
+                        02
+                    </span>
+
+                    <span>
+                        COMMUNICATION
+                    </span>
+
+                </div>
+
+
+                <div class="project-shape project-network">
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span>
+                        COMMUNICATION TECHNOLOGY
+                    </span>
+
+                    <h3>
+                        Sports Talk
+                    </h3>
+
+                </div>
+
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 03 -->
+
+            <a
+                href="projects/project-03.html"
+                class="project-card project-three magnetic-card"
+            >
+
+                <div class="project-meta">
+
+                    <span>
+                        03
+                    </span>
+
+                    <span>
+                        MASS COMMUNICATION
+                    </span>
+
+                </div>
+
+
+                <div class="project-shape project-type">
+                    MASK
+                </div>
+
+
+                <div class="project-content">
+
+                    <span>
+                        MASS COMMUNICATION
+                    </span>
+
+                    <h3>
+                        Civic Awareness
+                    </h3>
+
+                </div>
+
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 04 -->
+
+            <a
+                href="projects/project-04.html"
+                class="project-card project-four magnetic-card"
+            >
+
+                <div class="project-meta">
+
+                    <span>
+                        04
+                    </span>
+
+                    <span>
+                        AUDIO
+                    </span>
+
+                </div>
+
+
+                <div class="project-shape project-wave"></div>
+
+
+                <div class="project-content">
+
+                    <span>
+                        ADVANCED ENGLISH WRITING
+                    </span>
+
+                    <h3>
+                        Podcast
+                    </h3>
+
+                </div>
+
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 05 -->
+
+            <a
+                href="projects/project-05.html"
+                class="project-card project-five magnetic-card"
+            >
+
+                <div class="project-meta">
+
+                    <span>
+                        05
+                    </span>
+
+                    <span>
+                        WRITING
+                    </span>
+
+                </div>
+
+
+                <div class="project-shape project-fashion">
+
+                    <span>
+                        BANGLA
+                    </span>
+
+                    <span>
+                        STORY
+                    </span>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span>
+                        ADVANCED BANGLA WRITING
+                    </span>
+
+                    <h3>
+                        Bangla Feature
+                    </h3>
+
+                </div>
+
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 06 -->
+
+            <a
+                href="projects/project-06.html"
+                class="project-card project-six magnetic-card"
+            >
+
+                <div class="project-meta">
+
+                    <span>
+                        06
+                    </span>
+
+                    <span>
+                        INSTALLATION
+                    </span>
+
+                </div>
+
+
+                <div class="project-shape project-plastic">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span>
+                        CONVERGENCE COMMUNICATION I
+                    </span>
+
+                    <h3>
+                        Installation
+                    </h3>
+
+                </div>
+
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+        <!-- =================================================
+             PROJECT LIST / EXTENDED ARCHIVE
+        ================================================== -->
+
+        <div
+            style="
+                margin-top:2px;
+                background:rgba(255,255,255,.025);
+                border-top:1px solid rgba(255,255,255,.12);
+            "
+        >
+
+            <!-- 07 -->
+
+            <a
+                href="projects/project-07.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    07
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    Video Art
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    CONVERGENCE II ↗
+                </span>
+
+            </a>
+
+
+            <!-- 08 -->
+
+            <a
+                href="projects/project-08.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    08
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    In-depth Report
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    NEWS SOURCING ↗
+                </span>
+
+            </a>
+
+
+            <!-- 09 -->
+
+            <a
+                href="projects/project-09.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    09
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    Multimedia Story
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    ONLINE JOURNALISM ↗
+                </span>
+
+            </a>
+
+
+            <!-- 10 -->
+
+            <a
+                href="projects/project-10.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    10
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    Mojo Project
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    MOBILE JOURNALISM ↗
+                </span>
+
+            </a>
+
+
+            <!-- 11 -->
+
+            <a
+                href="projects/project-11.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    11
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    News Editing & Translation
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    NEWS EDITING ↗
+                </span>
+
+            </a>
+
+
+            <!-- 12 -->
+
+            <a
+                href="projects/project-12.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    12
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    Data Project
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    DATA JOURNALISM ↗
+                </span>
+
+            </a>
+
+
+            <!-- 13 -->
+
+            <a
+                href="projects/project-13.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    13
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    Investigative Journalism I
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    NEWS PACKAGE ↗
+                </span>
+
+            </a>
+
+
+            <!-- 14 -->
+
+            <a
+                href="projects/project-14.html"
+                class="academic-list-item"
+                style="
+                    display:grid;
+                    grid-template-columns:80px 1fr auto;
+                    gap:30px;
+                    align-items:center;
+                    padding:32px 20px;
+                    border-bottom:1px solid rgba(255,255,255,.1);
+                    transition:.45s var(--ease);
+                "
+            >
+
+                <span
+                    style="
+                        font:500 10px var(--mono);
+                        color:var(--cyan);
+                    "
+                >
+                    14
+                </span>
+
+                <span
+                    style="
+                        font:700 clamp(22px,3vw,38px) var(--display);
+                        letter-spacing:-.04em;
+                    "
+                >
+                    Investigative Journalism II
+                </span>
+
+                <span
+                    style="
+                        font:500 9px var(--mono);
+                        color:rgba(255,255,255,.4);
+                    "
+                >
+                    NEWS PACKAGE ↗
+                </span>
+
+            </a>
+
+        </div>
+
+
+        <!-- =================================================
+             ARCHIVE CTA
+        ================================================== -->
+
+        <div
+            style="
+                margin-top:90px;
+            "
+        >
+
+            <a
+                href="index.html"
+                class="big-link magnetic"
+            >
+
+                <span>
+                    RETURN TO MAIN PORTFOLIO
+                </span>
+
+                <i>
+                    ↗
+                </i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ACADEMIC STATEMENT
+========================================================= -->
+
+<section
+    class="section-light"
+    style="padding:150px 0;"
+>
+
+    <div class="section-container">
+
+        <div class="section-topline dark">
+
+            <span>
+                03 / APPROACH
+            </span>
+
+            <span>
+                METHOD / PRACTICE
+            </span>
+
+        </div>
+
+
+        <div
+            style="
+                display:grid;
+                grid-template-columns:1.2fr .8fr;
+                gap:10%;
+                align-items:end;
+                margin-top:100px;
+            "
+        >
+
+            <h2
+                class="reveal-title"
+                style="
+                    font:800 clamp(55px,8vw,120px)/.82 var(--display);
+                    letter-spacing:-.075em;
+                "
+            >
+
+                FROM
+
+                <span
+                    style="
+                        color:var(--blue);
+                    "
+                >
+                    IDEA
+                </span>
+
+                TO
+
+                <span
+                    style="
+                        color:transparent;
+                        -webkit-text-stroke:1px var(--ink);
+                    "
+                >
+                    IMPACT.
+                </span>
+
+            </h2>
+
+
+            <div class="reveal-text">
+
+                <p
+                    style="
+                        color:var(--muted);
+                        font-size:14px;
+                        line-height:2;
+                    "
+                >
+
+                    Academic work is where curiosity becomes
+                    structured thinking. Through research,
+                    observation, reporting and experimentation,
+                    these projects explore how communication
+                    shapes people, communities and everyday life.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div
+            style="
+                display:grid;
+                grid-template-columns:repeat(3,1fr);
+                gap:1px;
+                background:var(--line);
+                margin-top:100px;
+                border:1px solid var(--line);
+            "
+        >
+
+            <div
+                style="
+                    padding:45px 30px;
+                    background:var(--paper);
+                "
+                class="reveal-up"
+            >
+
+                <span
+                    style="
+                        display:block;
+                        color:var(--blue);
+                        font:500 9px var(--mono);
+                    "
+                >
+                    01
+                </span>
+
+                <strong
+                    style="
+                        display:block;
+                        margin-top:25px;
+                        font:700 28px var(--display);
+                    "
+                >
+                    RESEARCH
+                </strong>
+
+                <p
+                    style="
+                        margin-top:15px;
+                        color:var(--muted);
+                        font-size:12px;
+                        line-height:1.8;
+                    "
+                >
+                    Questions, evidence and structured
+                    investigation.
+                </p>
+
+            </div>
+
+
+            <div
+                style="
+                    padding:45px 30px;
+                    background:var(--paper);
+                "
+                class="reveal-up delay-one"
+            >
+
+                <span
+                    style="
+                        display:block;
+                        color:var(--violet);
+                        font:500 9px var(--mono);
+                    "
+                >
+                    02
+                </span>
+
+                <strong
+                    style="
+                        display:block;
+                        margin-top:25px;
+                        font:700 28px var(--display);
+                    "
+                >
+                    STORY
+                </strong>
+
+                <p
+                    style="
+                        margin-top:15px;
+                        color:var(--muted);
+                        font-size:12px;
+                        line-height:1.8;
+                    "
+                >
+                    Turning information into meaningful
+                    narratives.
+                </p>
+
+            </div>
+
+
+            <div
+                style="
+                    padding:45px 30px;
+                    background:var(--paper);
+                "
+                class="reveal-up delay-two"
+            >
+
+                <span
+                    style="
+                        display:block;
+                        color:var(--magenta);
+                        font:500 9px var(--mono);
+                    "
+                >
+                    03
+                </span>
+
+                <strong
+                    style="
+                        display:block;
+                        margin-top:25px;
+                        font:700 28px var(--display);
+                    "
+                >
+                    IMPACT
+                </strong>
+
+                <p
+                    style="
+                        margin-top:15px;
+                        color:var(--muted);
+                        font-size:12px;
+                        line-height:1.8;
+                    "
+                >
+                    Communication designed to connect
+                    ideas with people.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="final-cta">
+
+    <div class="cta-glow"></div>
+
+
+    <div class="cta-inner">
+
+        <div class="cta-kicker">
+            NEXT / EXPLORE
+        </div>
+
+
+        <h2>
+
+            KEEP
+
+            <span>
+                EXPLORING.
+            </span>
+
+        </h2>
+
+
+        <p>
+            More work, more stories, more perspectives.
+        </p>
+
+
+        <a
+            href="index.html"
+            class="cta-button magnetic"
+        >
+
+            BACK TO PORTFOLIO
+
+            <i>
+                ↗
+            </i>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <span>
+                SANIM
+            </span>
+
+            <small>
+                ACADEMIC / MEDIA / JOURNALISM
+            </small>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a
+                href="index.html"
+                class="magnetic"
+            >
+                HOME
+            </a>
+
+            <a
+                href="academic.html"
+                class="magnetic"
+            >
+                ACADEMIC
+            </a>
+
+            <a
+                href="internship.html"
+                class="magnetic"
+            >
+                EXPERIENCE
+            </a>
+
+            <a
+                href="extracurricular.html"
+                class="magnetic"
+            >
+                MEDIA
+            </a>
+
+            <a
+                href="contact.html"
+                class="magnetic"
+            >
+                CONTACT
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 SANIM. ALL RIGHTS RESERVED.
+        </span>
+
+        <span>
+            ACADEMIC ARCHIVE / 2022—2026
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     JS
+========================================================= -->
+
+<script src="script.js"></script>
+
+
+<!-- =========================================================
+     PAGE-SPECIFIC HOVER
+========================================================= -->
+
+<style>
+
+.academic-list-item:hover {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    background: rgba(23,105,255,.12);
+}
+
+.academic-list-item:hover span:nth-child(2) {
+    color: var(--cyan);
+}
+
+@media (max-width:800px) {
+
+    .academic-hero > .section-container > div:nth-child(2) {
+        padding-top:70px !important;
+    }
+
+    .academic-hero
+    .section-container
+    > div:nth-child(2)
+    > div:last-child {
+
+        grid-template-columns:1fr !important;
+        gap:35px !important;
+
+    }
+
+    .academic-hero
+    .section-container
+    > div:nth-child(2)
+    > div:last-child
+    > div:last-child {
+
+        justify-self:start !important;
+        text-align:left !important;
+
+    }
+
+    .academic-heading {
+        margin:70px 0 50px !important;
+    }
+
+    .academic-list-item {
+        grid-template-columns:45px 1fr !important;
+        gap:15px !important;
+        padding:25px 10px !important;
+    }
+
+    .academic-list-item span:last-child {
+        grid-column:2;
+    }
+
+    .academic-list-item:hover {
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+
+    .section-light
+    .section-container
+    > div:nth-last-child(1) {
+
+        grid-template-columns:1fr !important;
+
+    }
+
+}
+
+</style>
+
+</body>
+</html>
